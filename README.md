@@ -62,6 +62,8 @@ $ sudo ufw allow 80/tcp
 $ sudo ufw allow 123/udp
 $ sudo ufw enable
 
+Configure the time zone by
+sudo dpkg-reconfigure tzdata
 
 NOW we will go to deploy process 
 First we will install the needed packages 
